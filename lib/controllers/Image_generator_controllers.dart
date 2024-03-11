@@ -25,6 +25,7 @@ class ImageGenerator {
         List <dynamic> jsonResponse = json.decode(response.body)['data'];
         var assistantResponse =
             List<String>.from(jsonResponse.map((image) => image['url']));
+          
         return assistantResponse;
       } else {
         print('Error: ${response.statusCode}');

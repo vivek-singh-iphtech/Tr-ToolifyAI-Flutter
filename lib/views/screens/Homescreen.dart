@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toolify_ai/views/screens/Image_ai.dart';
 import 'package:toolify_ai/views/screens/text_ai.dart';
 
 class Homescreen extends StatefulWidget {
@@ -228,7 +229,7 @@ class _HomescreenState extends State<Homescreen> {
                                                     context,
                                                     MaterialPageRoute(
                                                         builder: (context) =>
-                                                            TextAi()));
+                                                            ImageAi()));
                                               },
                                               child: Container(
                                                 height: 30,
